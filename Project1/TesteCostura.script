@@ -1,0 +1,266 @@
+// Script:    TesteArvore.script
+// Autor:     Gustavo Bach, João Gardenberg e Michelle Valente
+// Data:      10/03/2014
+// Propósito: Testa a costura e o imprimir da costura feita na árvore
+
+== Verificar assertivas de entrada de irdir
+=irdir      0	4
+
+== Verificar comando recuperar
+=irdir      0	0
+=recuperar 
+
+== Verificar ObterValorCorr relativo a árvore inexistente
+=obter      0	'!'   4
+
+== Verificar recuperar de ObterValorCorr relativo a árvore inexistente
+=obter      0	'!'   1  
+=recuperar
+
+== Costurar sem árvore
+=costfol	0	0
+=recuperar
+
+== Imprimir costura sem árvore
+=impfol		0	0
+=recuperar
+
+== Criar árvore 1 (Árvore Simétrica)
+=criar      0	0   
+=irdir      0	5
+
+== Costurar árvore vazia
+=costfol	0	0
+=recuperar
+
+== Imprimir costura com árvore vazia
+=impfol		0	0
+=recuperar
+
+== Inserir à direita
+=insdir     0	'a'   0
+
+== Obter o valor inserido
+=obter      0	'a'   0
+
+== Verificar controle de obter o valor inserido errado
+=obter      0	'x'   0
+=recuperar
+
+== Ir para no pai, nao tem
+=irpai      0	6
+
+== Inserir à direita
+=insdir     0	'b'   0
+
+== Inserir à esquerda
+=insesq     0	'v'   0
+
+== Ir para no pai, tem
+=irpai      0	0
+
+== Inserir à direita
+=insdir     0	'c'   0
+
+== Inserir à esquerda
+=insesq     0	'i'   0
+
+== Ir para no pai, tem
+=irpai      0	0
+
+== Inserir à direita
+=insdir     0	'o'   0
+
+== Ir para no pai, tem
+=irpai      0	0
+
+== Ir para no pai, tem
+=irpai      0	0
+
+== Ir para no pai, tem
+=irpai      0	0
+
+== Inserir à esquerda
+=insesq     0	'd'   0
+
+== Inserir à direita
+=insdir     0	'a'   0
+
+== Ir para no pai, tem
+=irpai      0	0
+
+== Inserir à esquerda
+=insesq     0	'e'   0
+
+== Inserir à esquerda
+=insesq     0	'f'   0
+
+== Ir para no pai, tem
+=irpai      0	0
+
+== Inserir à direita
+=insdir     0	'l'   0
+
+== Imprimir Árvore sem costura
+=impfol		0	0
+=recuperar
+
+== Costurar Folhas Árvore 1
+=costfol	0	0
+
+== Imprimir Costura Árvore 1
+=impfol		0	0
+
+== Destroi Árvore 1
+=destruir	0
+=irdir		0	4
+
+== Criar árvore 2 (Árvore só com raiz)
+=criar      1	0   
+=irdir      1	5
+
+== Inserir à direita
+=insdir     1	'a'   0
+
+== Obter o valor inserido
+=obter      1	'a'   0
+
+== Verificar controle de obter o valor inserido errado
+=obter      1	'x'   0
+=recuperar
+
+== Ir para no pai, nao tem
+=irpai      1	6
+
+== Costurar Folhas Árvore 2
+=costfol	1	0
+
+== Imprimir Costura Árvore 2
+=impfol		1	0
+
+== Destroi Árvore 2
+=destruir	1
+=irdir		1	4
+
+== Criar árvore 3 (Árvore Assimétrica)
+=criar      2	0   
+
+== Inserir à direita
+=insdir     2	'1'   0
+
+== Obter o valor inserido
+=obter      2	'1'   0
+
+== Verificar controle de obter o valor inserido errado
+=obter      2	'x'   0
+=recuperar
+
+== Ir para no pai, nao tem
+=irpai      2	6
+
+== Inserir à direita
+=insdir     2	'7'   0
+
+== Inserir à direita
+=insdir     2	'8'   0
+
+== Inserir à direita
+=insdir     2	'3'   0
+
+== Ir para no pai, tem
+=irpai      2	0
+
+== Inserir à esquerda
+=insesq     2	'9'   0
+
+== Ir para no pai, tem
+=irpai      2	0
+
+== Ir para no pai, tem
+=irpai      2	0
+
+== Ir para no pai, tem
+=irpai      2	0
+
+== Inserir à esquerda
+=insesq     2	'2'   0
+
+== Inserir à esquerda
+=insesq     2	'3'   0
+
+== Inserir à esquerda
+=insesq     2	'4'   0
+
+== Inserir à esquerda
+=insesq     2	'5'   0
+
+== Ir para no pai, tem
+=irpai      2	0
+
+== Inserir à direita
+=insdir     2	'6'   0
+
+== Costurar Folhas
+=costfol	2	0
+
+== Imprimir Costura Árvore 3
+=impfol		2	0
+
+== Destroi Árvore 3
+=destruir	2
+=irdir		2	4
+
+== Criar árvore 4 (Árvore com só uma folha)
+=criar      3	0   
+
+== Inserir à direita
+=insdir     3	'c'   0
+
+== Inserir à direita
+=insdir     3	'd'   0
+
+== Obter o valor inserido
+=obter      3	'd'   0
+
+== Verificar controle de obter o valor inserido errado
+=obter      3	'x'   0
+=recuperar
+
+== Costurar Folhas Árvore 4
+=costfol	3	0
+
+== Imprimir Costura Árvore 4
+=impfol		3	0
+
+== Destroi Árvore 4
+=destruir	3
+=irdir		3	4
+
+== Criar árvore 5 (Árvore com 2 folhas)
+=criar      4	0   
+=irdir      4	5
+
+== Inserir à direita
+=insdir     4	'a'   0
+
+== Inserir à direita
+=insdir     4	'b'   0
+
+== Obter o valor inserido
+=obter      4	'b'   0
+
+== Ir para no pai, tem
+=irpai      4	0
+
+== Inserir à esquerda
+=insesq     4	'c'   0
+
+== Costurar Folhas Árvore 5
+=costfol	4	0
+
+== Imprimir Costura Árvore 5
+=impfol		4	0
+
+== Destroi Árvore 5
+=destruir	4 
+=irdir		4	4

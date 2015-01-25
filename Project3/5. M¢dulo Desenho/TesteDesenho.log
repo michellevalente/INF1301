@@ -1,0 +1,62 @@
+
+
+LES - Laboratório de Engenharia de Software DI/PUC-Rio
+      Arcabouço de teste de módulos C  (c) 2006
+
+---------------------------------------------
+      Construto sob teste: Executavel/TRAB3-4.exe
+
+      Arquivo de teste:    TesteDesenho.script
+
+
+!!!    0  Linha:     1  // Script:    TesteDesenho.script 
+!!!    0  Linha:     2  // Autores:   Gustavo Bach, João Lucas Gardenberg e Michelle Valente 
+!!!    0  Linha:     3  // Data:      13/mai/2014 
+!!!    0  Linha:     4  // Propósito: Testar todas as funções do módulo Desenho. 
+    6  == Gerar Matriz
+    9  == Alterar estados corretos
+   17  == Alterar estados atuais
+   24  == Testar alterar estados corretos não pertencentes à matriz
+   28  == Testar alterar estados atuais não pertencentes à matriz
+   32  == Obter estados corretos
+   46  == Obter estados atuais
+   60  == Testar obter estado correto não pertencente à matriz
+   64  == Testar obter estado atual não pertencente à matriz
+   68  == Desenhar Atual
+
+
+                         
+         2   1   2   1   
+
+    1   (X) ( ) ( ) ( ) 
+
+  1 1   (X) (X) (X) (X) 
+
+  1 2   ( ) ( ) ( ) ( ) 
+
+
+
+
+   71  == Desenhar Correto
+
+
+                         
+         2   1   2   1   
+
+    1   ( ) (X) ( ) ( ) 
+
+  1 1   (X) ( ) (X) ( ) 
+
+  1 2   (X) ( ) (X) (X) 
+
+
+
+!!! Número de linhas lidas:          72
+!!! Número de casos de teste:        11
+!!! Número comandos corretos:        46
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

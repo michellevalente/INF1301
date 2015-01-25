@@ -1,0 +1,204 @@
+DESCRIÇÃO DO PROGRAMA:
+
+	No programa, você tanto pode criar desenhos como tentar
+	acertar os desenhos. O Modo Projeto serve para montar o
+	seu próprio desenho, e salvá-lo se quiser para alguém
+	tentar acertá-lo no Modo Desafio. O Modo Desafio serve
+	para tentar acertar desenhos criados. Para isso, você
+	deve ter um arquivo de desenho salvo no diretório
+	"6. O Jogo", junto do arquivo Jogar.bat. Você não pode
+	jogar no Modo Desafio sem antes ter algum desenho salvo.
+	Caso não queira montar nenhum desenho antes de ir para
+	o Modo Desafio, estão disponibilizados 3 arquivos de
+	desenho no diretório requerido para você tentar acertar.
+	Quanto aos Módulos Lista, Matriz e Desenho, que foram
+	modificados desde o Trabalho 2, para testá-los, você
+	deve executar seus respectivos arquivos Bat, que contêm
+	os parâmetros necessários.
+
+----------------------------------------------------------------
+
+COMPOSIÇÃO:
+
+>- LISTA
+
+1. Arquivos Fonte:
+   - "1. Módulo Lista\Source\LISTA.C"
+   - "1. Módulo Lista\Source\TESTLIS.C"
+   
+2. Arquivos Header:
+   - "1. Módulo Lista\Source\LISTA.H"
+   - "0. Arquivos Compartilhados\GENERICO.H"
+   - "0. Arquivos Compartilhados\LERPARM.H"
+   - "0. Arquivos Compartilhados\TST_ESPC.H"
+   
+3. Biblioteca do Arcabouço:
+   - "0. Arquivos Compartilhados\ArcaboucoTeste.lib"
+   
+4. Arquivo de Script:
+   - "1. Módulo Lista\TesteLista.script"
+   
+5. Arquivo de Log:
+   - "1. Módulo Lista\TesteLista.log"
+
+6. Arquivo Executável:
+   - "1. Módulo Lista\Executavel\TRAB3-2.exe"
+
+7. Arquivo Bat:
+   - "1. Módulo Lista\TesteLista.bat"
+
+>- MATRIZ
+
+1. Arquivos Fonte:
+   - "2. Módulo Matriz\Source\MATRIZ.C"
+   - "2. Módulo Matriz\Source\TESTMAT.C"
+   
+2. Arquivos Header:
+   - "2. Módulo Matriz\Source\MATRIZ.H"
+   - "1. Módulo Lista\Source\LISTA.H"
+   - "0. Arquivos Compartilhados\GENERICO.H"
+   - "0. Arquivos Compartilhados\LERPARM.H"
+   - "0. Arquivos Compartilhados\TST_ESPC.H"
+   
+3. Biblioteca do Arcabouço:
+   - "0. Arquivos Compartilhados\ArcaboucoTeste.lib"
+   
+4. Arquivo de Script:
+   - "2. Módulo Matriz\TesteMatriz.script"
+
+5. Arquivo de Log:
+   - "2. Módulo Matriz\TesteMatriz.log"
+
+6. Arquivo Executável:
+   - "2. Módulo Matriz\Executavel\TRAB3-3.exe"
+
+7. Arquivo Bat:
+   - "2. Módulo Matriz\TesteMatriz.bat"
+
+>- CÉLULA
+
+1. Arquivos Fonte:
+   - "3. Módulo Celula\Source\CELULA.C"
+   - "3. Módulo Celula\Source\TESTCEL.C"
+   
+2. Arquivo Header:
+   - "3. Módulo Celula\Source\CELULA.H"
+
+O módulo Celula não teve alterações desde o Trabalho 2.
+
+>- VALOR
+
+1. Arquivos Fonte:
+   - "4. Módulo Valor\Source\VALOR.C"
+   - "4. Módulo Valor\Source\TESTVAL.C"
+   
+2. Arquivo Header:
+   - "4. Módulo Valor\Source\VALOR.H"
+
+O módulo Valor não teve alterações desde o Trabalho 2.
+
+>- DESENHO
+
+1. Arquivos Fonte:
+   - "5. Módulo Desenho\Source\DESENHO.C"
+   - "5. Módulo Desenho\Source\TESTDES.C"
+   
+2. Arquivos Header:
+   - "5. Módulo Desenho\Source\DESENHO.H"
+   - "4. Módulo Valor\Source\VALOR.H"
+   - "3. Módulo Celula\Source\CELULA.H"
+   - "2. Módulo Matriz\Source\MATRIZ.H"
+   - "1. Módulo Lista\Source\LISTA.H"
+   - "5. Módulo Desenho\Source\GENERICO.H"
+   - "5. Módulo Desenho\Source\LERPARM.H"
+   - "5. Módulo Desenho\Source\TST_ESPC.H"
+
+3. Biblioteca do Arcabouço:
+   - "5. Módulo Desenho\Source\ArcaboucoTeste.lib"
+   
+4. Arquivo de Script:
+   - "5. Módulo Desenho\TesteDesenho.script"
+   
+5. Arquivo de Log:
+   - "5. Módulo Desenho\TesteDesenho.log"
+   
+6. Arquivo Executável:
+   - "5. Módulo Desenho\Executavel\TRAB3-4.EXE"
+   
+7. Arquivo Bat:
+   - "5. Módulo Desenho\TesteDesenho.bat"
+   
+O módulo Desenho teve alterações desde o Trabalho 2.
+
+>- JOGO
+
+1. Arquivo Fonte:
+   - "6. O Jogo\Source\JOGO.C"
+   
+2. Arquivo Executável:
+   - "6. O Jogo\Executavel\TRAB3-1.EXE"
+   
+3. Arquivo Bat:
+   - "6. O Jogo\Jogar.bat"
+   
+4. Arquivos de desenhos pré-salvos:
+   - "6. O Jogo\save1.txt"
+   - "6. O Jogo\save2.txt"
+   - "6. O Jogo\save3.txt"
+   
+----------------------------------------------------------------
+
+RELATÓRIOS:
+
+   - "Relatórios\RELATORIO-gustavo_bach.txt"
+   - "Relatórios\RELATORIO-joao_lucas_gardenberg.txt"
+   - "Relatórios\RELATORIO-michelle_valente.txt"
+   
+ARQUITETURA DOS MÓDULOS:
+
+   - "Arquitetura e Modelo\Arquitetura dos Módulos.pdf"
+   
+MODELO FÍSICO E EXEMPLO:
+
+   - "Arquitetura e Modelo\Modelo Físico.pdf"
+   - "Arquitetura e Modelo\Exemplo Físico.pdf"
+   
+ARGUMENTAÇÃO DE CORRETUDE PARA PONTOS EXTRA:
+
+   - "Argumentação de Corretude\Argumentação de Corretude.pdf"
+   
+----------------------------------------------------------------
+
+COMO UTILIZAR:
+
+1. Para Jogar, execute:
+   - "6. O Jogo\Jogar.bat"
+
+2. Para testar os Módulos modificados, execute:
+   - "1. Módulo Lista\TesteLista.bat"
+   - "2. Módulo Matriz\TesteMatriz.bat"
+   - "5. Módulo Desenho\TesteDesenho.bat"
+   
+3. O Arquivo Bat já abre o Log, mas se necessário,
+   abra os arquivo:
+   - "1. Módulo Lista\TesteLista.log"
+   - "2. Módulo Matriz\TesteMatriz.log"
+   - "5. Módulo Desenho\TesteDesenho.log"
+   
+4. Pode ser necessária a instalação de uma das DLLs:
+   - MSVCR110D.dll
+   - MSVCR110.dll
+   OBS.: Apenas é necessária a instalação delas se ocorrer 
+   algum erro na hora da execução dos Bats.
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

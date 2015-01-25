@@ -1,0 +1,46 @@
+
+
+LES - Laboratório de Engenharia de Software DI/PUC-Rio
+      Arcabouço de teste de módulos C  (c) 2006
+
+---------------------------------------------
+      Construto sob teste: Executavel\TRAB3-2.EXE
+
+      Arquivo de teste:    TesteLista.script
+
+
+!!!    0  Linha:     1  // Script:    TesteLista.script 
+!!!    0  Linha:     2  // Autor:     Gustavo Bach, João Lucas Gardenberg e Michelle Valente 
+!!!    0  Linha:     3  // Data:      13/04/2014 
+!!!    0  Linha:     4  // Propósito: Testar todas as funções do módulo lista 
+    6  == Inicializar valores
+   25  == Criar a lista 0
+   28  == Verificar ObterValor relativo a lista vazia
+   31  == Inserir elemento em lista vazia
+   35  == Inserir elemento após primeiro
+   39  == Inserir elemento antes do último
+   43  == Excluir elemento do meio
+   47  == Excluir elemento do início
+   51  == Excluir elemento final, único
+   55  == Ver se a lista ficou vazia
+   58  == Destruir a lista
+   61  == Criar uma lista com dois elementos
+   66  == Esvaziar a lista e ver se ficou vazia
+   70  == Destruir a lista
+   73  == Criar uma lista com quatro elementos
+   80  == Verificar a lista de trás para diante
+   90  == Verificar a lista de frente para trás
+  100  == Verificar a lista andando demais de trás para diante
+  104  == Verificar a lista andando demais de frente para trás
+  108  == Destruir a lista
+!!!    0  Linha:   111  // fim 
+
+!!! Número de linhas lidas:         111
+!!! Número de casos de teste:        20
+!!! Número comandos corretos:        62
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

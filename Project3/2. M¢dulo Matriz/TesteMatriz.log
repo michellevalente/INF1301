@@ -1,0 +1,53 @@
+
+
+LES - Laboratório de Engenharia de Software DI/PUC-Rio
+      Arcabouço de teste de módulos C  (c) 2006
+
+---------------------------------------------
+      Construto sob teste: Executavel\TRAB3-3.EXE
+
+      Arquivo de teste:    TesteMatriz.script
+
+
+!!!    0  Linha:     1  // Script:	TesteMatriz.script 
+!!!    0  Linha:     2  // Autor: 	Gustavo Bach, João Lucas Gardenberg e Michelle Valente 
+!!!    0  Linha:     3  // Data:  	11/abr/2014 
+!!!    0  Linha:     4  // Propósito: Ilustrar arquivo de script, 
+!!!    0  Linha:     5  //        	Testa a construção de uma matriz usando parâmetros literais. 
+    7  == Verificar retorno MatrizNaoExiste destruindo matriz
+   10  == Verificar retorno MatrizNaoExiste inserindo valor
+   13  == Verificar retorno MatrizNaoExiste obtendo valor
+   16  == Verificar retorno MatrizNaoExiste obtendo Altura e Largura da matriz
+   19  == Criar Matriz
+   22  == Obter Altura e Largura da matriz
+   25  == Verificar retorno FimLinhas inserindo valor
+   28  == Verificar retorno FimColunas inserindo valor
+   31  == Inserir Valor
+   34  == Inserir Valor
+   37  == Inserir Valor
+   40  == Inserir Valor
+   43  == Inserir Valor
+   46  == Inserir Valor
+   49  == Verificar retorno FimLinhas obtendo valor
+   52  == Verificar retorno FimColunas obtendo valor
+   55  == Obter Valor
+   58  == Obter Valor
+   61  == Verificar Obter Valor Errado
+>>>    1  Linha:    62  Valor errado do elemento. Deveria ser: 3  É: 5
+<<<    0  Linha:    63  Falha esperada foi recuperada. 
+   65  == Obter Valor
+   68  == Obter Valor
+   71  == Obter Valor
+   74  == Obter Valor
+   77  == Destruir
+!!!    0  Linha:    80  // fim 
+
+!!! Número de linhas lidas:          80
+!!! Número de casos de teste:        24
+!!! Número comandos corretos:        23
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

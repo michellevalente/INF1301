@@ -1,0 +1,80 @@
+// Script:	TesteMatriz.script
+// Autor: 	Gustavo Bach, João Lucas Gardenberg e Michelle Valente
+// Data:  	11/abr/2014
+// Propósito: Ilustrar arquivo de script,
+//        	Testa a construção de uma matriz usando parâmetros literais.
+
+== Verificar retorno MatrizNaoExiste destruindo matriz
+=destruir 1
+
+== Verificar retorno MatrizNaoExiste inserindo valor
+=inserir 2 1 1 1
+
+== Verificar retorno MatrizNaoExiste obtendo valor
+=obter 2 1 1 1
+
+== Verificar retorno MatrizNaoExiste obtendo Altura e Largura da matriz
+=obteraltlar 1 2 1
+
+== Criar Matriz
+=criar 2 3 0
+
+== Obter Altura e Largura da matriz
+=obteraltlar 2 3 0
+
+== Verificar retorno FimLinhas inserindo valor
+=inserir 2 3 3 5
+
+== Verificar retorno FimColunas inserindo valor
+=inserir 2 2 4 4
+
+== Inserir Valor
+=inserir 2 1 1 0
+
+== Inserir Valor
+=inserir 5 2 1 0
+
+== Inserir Valor
+=inserir 4 1 2 0
+
+== Inserir Valor
+=inserir 7 2 2 0
+
+== Inserir Valor
+=inserir 6 1 3 0
+
+== Inserir Valor
+=inserir 8 2 3 0
+
+== Verificar retorno FimLinhas obtendo valor
+=obter 2 3 3 5
+
+== Verificar retorno FimColunas obtendo valor
+=obter 2 2 4 4
+
+== Obter Valor
+=obter     2 1 1 0
+
+== Obter Valor
+=obter     7 2 2 0
+
+== Verificar Obter Valor Errado
+=obter     3 2 1 0
+=recuperar
+
+== Obter Valor
+=obter     4 1 2 0
+
+== Obter Valor
+=obter     5 2 1 0
+
+== Obter Valor
+=obter     8 2 3 0
+
+== Obter Valor
+=obter     6 1 3 0
+
+== Destruir
+=destruir 0
+
+// fim

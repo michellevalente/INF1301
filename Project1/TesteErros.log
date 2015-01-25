@@ -1,0 +1,53 @@
+
+
+LES - Laboratório de Engenharia de Software DI/PUC-Rio
+      Arcabouço de teste de módulos C  (c) 2006
+
+---------------------------------------------
+      Construto sob teste: TRAB1-1.EXE
+
+      Arquivo de teste:    TesteErros.script
+
+
+!!!    0  Linha:     1  // Script:    TesteErros.script 
+!!!    0  Linha:     2  // Autor:     Gustavo Bach, João Gardenberg e Michelle Valente 
+!!!    0  Linha:     3  // Data:      17/03/2014 
+!!!    0  Linha:     4  // Propósito: Testa gerar erros no script. 
+    7  == Verificar assertivas de entrada de irdir
+   10  == Verificar comando recuperar
+>>>    1  Linha:    11  Retorno errado ao ir para direita. Deveria ser: 0  É: 4
+<<<    0  Linha:    12  Falha esperada foi recuperada. 
+   14  == Verificar ObterValorCorr relativo a árvore inexistente
+   17  == Verificar recuperar de ObterValorCorr relativo a árvore inexistente
+>>>    1  Linha:    18  Retorno errado ao obter valor corrente. Deveria ser: 1  É: 4
+<<<    0  Linha:    19  Falha esperada foi recuperada. 
+   21  == Criar árvore
+   25  == Inserir à direita
+   28  == Obter o valor inserido
+   31  == Verificar controle de obter o valor inserido errado
+>>>    1  Linha:    32  Conteúdo do nó está errado. Deveria ser: 'x'  É: 'a'
+<<<    0  Linha:    33  Falha esperada foi recuperada. 
+   35  == Ir para no pai, nao tem
+   38  == Inserir à esquerda
+   41  == Obter o valor inserido (Erro gerado pelo grupo)
+>>>    1  Linha:    42  Retorno errado ao obter valor corrente. Deveria ser: 1  É: 0
+   44  == Ir para no pai, tem
+   48  == Inserir à direita
+   52  == Ir para no pai
+   56  == Ir para no pai (Erro gerado pelo grupo)
+>>>    2  Linha:    57  Retorno errado ao ir para pai. Deveria ser: 0  É: 6
+   59  == Ir para no esquerda tem (Erro gerado pelo grupo)
+>>>    3  Linha:    60  Retorno errado ao ir para esquerda. Deveria ser: 1  É: 0
+   62  == Ir para no direita tem
+   67  == Destroi a arvore
+!!!    3  Linha:    73  // fim 
+
+!!! Número de linhas lidas:          73
+!!! Número de casos de teste:        18
+!!! Número comandos corretos:        19
+!!! Número de falhas encontradas:     3
+
+!!! Foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

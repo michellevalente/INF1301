@@ -1,0 +1,37 @@
+// Script:    TesteValor.script
+// Autores:   Gustavo Bach, João Lucas Gardenberg e Michelle Valente
+// Data:      12/abr/2014
+// Propósito: Testar todas as funções do módulo Valor.
+
+== Verificar comando recuperar
+=obternumcel 2 0
+=recuperar
+
+== Verificar retorno ValorNaoExiste obtendo o número de células
+=obternumcel 0 3
+
+== Criar Valor 
+=criar 2 0
+
+== Verificar o número de celulas correto ao criar Valor
+=obternumcel 2 0
+
+== Obter Estado inicializado ao criar Valor
+=obterestado 0 0
+
+== Alterar Estado
+=altestado 1 0
+
+== Alterar número de células
+=altnumcel 4 0
+
+== Obter novo Estado
+=obterestado 1 0
+
+== Obter novo número de células
+=obternumcel 4 0
+
+== Destruir Valor
+=destruir	0
+
+// fim

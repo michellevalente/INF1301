@@ -1,0 +1,147 @@
+
+
+LES - Laboratório de Engenharia de Software DI/PUC-Rio
+      Arcabouço de teste de módulos C  (c) 2006
+
+---------------------------------------------
+      Construto sob teste: TRAB4.exe
+
+      Arquivo de teste:    TesteDesenhoDeturpa.script
+
+
+!!!    0  Linha:     1  // Script:    TesteDesenho.script 
+!!!    0  Linha:     2  // Autores:   Gustavo Bach, João Lucas Gardenberg e Michelle Valente 
+!!!    0  Linha:     3  // Data:      01/jun/2014 
+!!!    0  Linha:     4  // Propósito: Testar as deturpacoes geradas de teste 
+    6  == Inicializar contadores
+   11  == Testar deturpacao tipo 1
+   14  == Alterar estados corretos
+   20  == Verificacao antes de deturpar
+   23  == Deturpar
+!!!    0  Linha:    24  Desalocar espaco recebeu ponteiro nulo 
+   26  ==Verificar 
+ Tamanho da Linha diferente da largura da matriz 
+ Linha : 2 
+ 
+ Erro no ponteiro para celula sucessora na Matriz 
+ Linha : 2 
+ Coluna: 2
+ 
+ Erro Lista nao esta duplamente encadeada 
+ Linha : 2
+
+   29  == Testar deturpacao tipo 2
+   32  == Alterar estados corretos
+   38  == Deturpar
+   41  ==Verificar 
+ Erro no ponteiro para celula sucessora na Matriz 
+ Linha : 2 
+ Coluna: 2
+ 
+ Erro Lista nao esta duplamente encadeada 
+ Linha : 2
+
+   44  == Testar deturpacao tipo 3
+   47  == Alterar estados corretos
+   53  == Deturpar
+   56  ==Verificar 
+ Erro Lista nao esta duplamente encadeada 
+ Linha : 2
+
+ Erro no ponteiro para celula predecessora na Matriz 
+ Linha : 2 
+ Coluna: 2
+
+   59  == Testar deturpacao tipo 4
+   62  == Alterar estados corretos
+   68  == Deturpar
+   71  ==Verificar 
+ Erro Lista nao esta duplamente encadeada 
+ Linha : 2
+
+   74  == Testar deturpacao tipo 5
+   77  == Alterar estados corretos
+   83  == Deturpar
+   86  ==Verificar 
+ Erro Lista nao esta duplamente encadeada 
+ Linha : 2
+
+   89  == Testar deturpacao tipo 6
+   92  == Alterar estados corretos
+   98  == Deturpar
+  101  ==Verificar 
+ Erro nas assertivas de uma lista preenchida 
+ Linha : 2
+ 
+ Erro célula vazia 
+ Linha : 2 
+ Coluna: 1
+ 
+ Erro Lista nao esta duplamente encadeada 
+ Linha : 2
+
+  104  == Testar deturpacao tipo 7
+  107  == Alterar estados corretos
+  113  == Deturpar
+  116  ==Verificar 
+ Erro no tipo de estrutura apontado por celula 
+ Linha : 2 
+ Coluna: 2
+
+  119  == Testar deturpacao tipo 8
+  122  == Alterar estados corretos
+  128  == Deturpar
+!!!    0  Linha:   129  Desalocar espaco recebeu ponteiro nulo 
+  131  ==Verificar 
+ Tamanho da Linha diferente da largura da matriz 
+ Linha : 2 
+ 
+ Erro no ponteiro para celula sucessora na Matriz 
+ Linha : 2 
+ Coluna: 2
+ 
+ Erro Lista nao esta duplamente encadeada 
+ Linha : 2
+
+  134  == Testar deturpacao tipo 9
+  137  == Alterar estados corretos
+  143  == Deturpar
+  146  ==Verificar 
+ Erro nas assertivas de uma lista preenchida 
+ Linha : 2
+ 
+ Erro célula vazia 
+ Linha : 2 
+ Coluna: 1
+ 
+ Erro Lista nao esta duplamente encadeada 
+ Linha : 2
+
+  149  == Testar deturpacao tipo 10
+  152  == Alterar estados corretos
+  158  == Deturpar
+  161  ==Verificar 
+ Erro nas assertivas de uma lista preenchida 
+ Linha : 1
+ 
+ Erro célula vazia 
+ Linha : 1 
+ Coluna: 1
+ 
+ Erro Lista nao esta duplamente encadeada 
+ Linha : 1
+
+  164  ==Destruir desenhos
+  167  == Gravar contadores
+  170  == Terminar controlar contadores
+  173  == Terminar contagem
+
+!!! Número de linhas lidas:         177
+!!! Número de casos de teste:        46
+!!! Número comandos corretos:        78
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

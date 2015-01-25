@@ -1,0 +1,84 @@
+Descrição do Programa:
+
+	O programa tem como objetivo realizar funções relacionadas à criação
+de uma ou mais árvores (dependendo do executável), obtenção dos valores de
+suas folhas e costura e impressão das mesmas. Os Arquivos de Script servem
+para realizar testes sobre os Executáveis e os Arquivos de Log servem para
+armazenar o resultado destes testes.
+	O primeiro Arquivo Executável (TRAB1-1.EXE) foi gerado a partir dos
+arquivos originais da pasta "simples" do Arcabouço. Já o segundo (TRAB1-2.EXE),
+a partir dos arquivos modificados para realizar a costura e a impressão das
+folhas das árvores. Vale lembrar que também modificamos as funções para
+poderem aceitar mais de uma árvore.
+	Os Arquivos Bat servem para rodar os Executáveis com os seus parâmetros
+(de Script e Log). O TESTE ARVORE.bat serve para rodar o Executável TRAB1-1.EXE
+com o Script TesteArvore.script e gerar o Log TesteArvore.log (relacionados 
+à questão 1). O TESTE ERROS.bat serve para rodar o Executável TRAB1-1.EXE com o 
+Script TesteErros.script e gerar o Log TesteErros.log (relacionados à questão 3).
+O TESTE RECUPERAR.bat serve para rodar o Executável TRAB1-1.EXE com o Script 
+TesteRecuperar.script e gerar o Log TesteRecuperar.log (relacionados à questão 4).
+O TESTE COSTURA.bat serve para rodar o Executável TRAB1-2.EXE com o Script
+TesteCostura.script e gerar o Log TesteCostura.log (relacionados às questões 5,
+6 e 7).
+
+1. Arquivos Fonte:
+ - ARVORE.C
+ - TESTARV.C
+
+2. Arquivos Header:
+ - ARVORE.H
+ - GENERICO.H
+ - LERPARM.H
+ - TST_ESPC.H
+
+3. Biblioteca do Arcabouço:
+ - ArcaboucoTeste.lib
+
+4. Arquivos de Script:
+ - TesteArvore.script
+ - TesteErros.script
+ - TesteRecuperar.script
+ - TesteCostura.script
+
+5. Arquivos de Log:
+ - TesteArvore.log
+ - TesteErros.log
+ - TesteRecuperar.log
+ - TesteCostura.log
+
+6. Arquivos Executáveis:
+ - TRAB1-1.EXE
+ - TRAB1-2.EXE
+
+7. Arquivos Bat:
+ - TESTE ARVORE.bat
+ - TESTE ERROS.bat
+ - TESTE RECUPERAR.bat
+ - TESTE COSTURA.bat
+
+8. Arquivos de Relatório:
+ - RELATORIO-gustavo_bach.txt
+ - RELATORIO-joao_lucas_gardenberg.txt
+ - RELATORIO-michelle_valente.txt
+
+9. Arquivo LeiaMe:
+ - LEIAME.TXT
+
+Como utilizar o Programa:
+
+1. Para testar o Programa, execute:
+ - TESTE ARVORE.bat
+ - TESTE ERROS.bat
+ - TESTE RECUPERAR.bat
+ - TESTE COSTURA.bat
+
+2. Os Arquivos Bat já abrem seus respectivos Logs, mas se necessário, abra os arquivos:
+ - TesteArvore.log
+ - TesteErros.log
+ - TesteRecuperar.log
+ - TesteCostura.log
+ 
+3. Pode ser necessária a instalação de uma das DLLs:
+ - MSVCR110D.dll
+ - MSVCR110.dll
+   Apenas é necessária a instalação delas se ocorrer algum erro na hora da execução dos Bats.

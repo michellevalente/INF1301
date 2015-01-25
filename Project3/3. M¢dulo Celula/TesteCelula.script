@@ -1,0 +1,65 @@
+// Script:    TesteCelula.script
+// Autores:   Gustavo Bach, João Lucas Gardenberg e Michelle Valente
+// Data:      12/abr/2014
+// Propósito: Ilustrar arquivo de script, 
+//            Testa a construção e alteração de uma célula usando parâmetros literais
+
+== Verificar comando recuperar
+=obteratual 1 0 0
+=recuperar
+
+== Verificar retorno CelulaNaoExiste obtendo estado atual
+=obteratual 1 0 2
+
+== Verificar retorno CelulaNaoExiste obtendo estado correto
+=obtercorreto 1 0 2
+
+== Verificar retorno CelulaNaoExiste alterando estado atual
+=alteraratual 1 2
+
+== Verificar retorno CelulaNaoExiste alterando estado correto
+=alterarcorreto 1 2
+
+== Verificar retorno CelulaNaoExiste comparando os estados
+=comparar 1 0 2
+
+== Criar a célula 1
+=criar 1 0
+
+== Criar a célula 2
+=criar 2 0
+
+== Verificar o estado atual (vazia) da célula 1
+=obteratual 1 0 0
+
+== Alterar o estado atual da célula 1
+=alteraratual 1 0
+
+== Verificar o estado atual (preenchida) da célula 1
+=obteratual 1 1 0
+
+== Verificar o estado correto (vazia) da célula 2
+=obtercorreto 2 0 0
+
+== Alterar o estado correto da célula 2
+=alterarcorreto 2 0
+
+== Verificar o estado correto (preenchida) da célula 2
+=obtercorreto 2 1 0
+
+== Alterar o estado atual da célula 2
+=alteraratual 2 0
+
+== Comparar os estados (diferentes) da célula 1 
+=comparar 1 1 0
+
+== Comparar os estados (iguais) da célula 2
+=comparar 2 0 0
+
+== Destruir a célula 1
+=destruir 1 0
+
+== Destruir a célula 2
+=destruir 2 0
+
+// fim

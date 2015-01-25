@@ -1,0 +1,29 @@
+Descrição do programa:
+	O programa gera a estrutura desenho e trabalha as instrumentações estudadas em aula. Após ser gerada a estrutura é deturpada e são verificados que erros foram gerados na estrutura. Além disso foram implementados contadores e verificadores de vazamento de memória. 
+
+--------------------------------------------------------------
+
+
+COMO UTILIZAR:
+
+1. Execute:
+   - "6. 5. Módulo Desenho - Instrumentação\TRAB4.bat"
+
+   
+w. Pode ser necessaria a instalação de uma das DLLs:
+   - MSVCR110D.dll
+   - MSVCR110.dll
+   OBS.: Apenas é necessária a instalação delas se ocorrer 
+   algum erro na hora da execução dos Bats.
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

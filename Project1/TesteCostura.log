@@ -1,0 +1,128 @@
+
+
+LES - Laboratório de Engenharia de Software DI/PUC-Rio
+      Arcabouço de teste de módulos C  (c) 2006
+
+---------------------------------------------
+      Construto sob teste: TRAB1-2.EXE
+
+      Arquivo de teste:    TesteCostura.script
+
+
+!!!    0  Linha:     1  // Script:    TesteArvore.script 
+!!!    0  Linha:     2  // Autor:     Gustavo Bach, João Gardenberg e Michelle Valente 
+!!!    0  Linha:     3  // Data:      10/03/2014 
+!!!    0  Linha:     4  // Propósito: Testa a costura e o imprimir da costura feita na árvore 
+    6  == Verificar assertivas de entrada de irdir
+    9  == Verificar comando recuperar
+>>>    1  Linha:    10  Retorno errado ao ir para direita. Deveria ser: 0  É: 4
+<<<    0  Linha:    11  Falha esperada foi recuperada. 
+   13  == Verificar ObterValorCorr relativo a árvore inexistente
+   16  == Verificar recuperar de ObterValorCorr relativo a árvore inexistente
+>>>    1  Linha:    17  Retorno errado ao obter valor corrente. Deveria ser: 1  É: 4
+<<<    0  Linha:    18  Falha esperada foi recuperada. 
+   20  == Costurar sem árvore
+>>>    1  Linha:    21  Retorno errado ao costurar árvore. Deveria ser: 0  É: 4
+<<<    0  Linha:    22  Falha esperada foi recuperada. 
+   24  == Imprimir costura sem árvore
+>>>    1  Linha:    25  Retorno errado ao imprimir costura da árvore. Deveria ser: 0  É: 4
+<<<    0  Linha:    26  Falha esperada foi recuperada. 
+   28  == Criar árvore 1 (Árvore Simétrica)
+   32  == Costurar árvore vazia
+>>>    1  Linha:    33  Retorno errado ao costurar árvore. Deveria ser: 0  É: 5
+<<<    0  Linha:    34  Falha esperada foi recuperada. 
+   36  == Imprimir costura com árvore vazia
+>>>    1  Linha:    37  Retorno errado ao imprimir costura da árvore. Deveria ser: 0  É: 5
+<<<    0  Linha:    38  Falha esperada foi recuperada. 
+   40  == Inserir à direita
+   43  == Obter o valor inserido
+   46  == Verificar controle de obter o valor inserido errado
+>>>    1  Linha:    47  Conteúdo do nó está errado. Deveria ser: 'x'  É: 'a'
+<<<    0  Linha:    48  Falha esperada foi recuperada. 
+   50  == Ir para no pai, nao tem
+   53  == Inserir à direita
+   56  == Inserir à esquerda
+   59  == Ir para no pai, tem
+   62  == Inserir à direita
+   65  == Inserir à esquerda
+   68  == Ir para no pai, tem
+   71  == Inserir à direita
+   74  == Ir para no pai, tem
+   77  == Ir para no pai, tem
+   80  == Ir para no pai, tem
+   83  == Inserir à esquerda
+   86  == Inserir à direita
+   89  == Ir para no pai, tem
+   92  == Inserir à esquerda
+   95  == Inserir à esquerda
+   98  == Ir para no pai, tem
+  101  == Inserir à direita
+  104  == Imprimir Árvore sem costura -> f 
+>>>    1  Linha:   105  Retorno errado ao imprimir costura da árvore. Deveria ser: 0  É: 9
+<<<    0  Linha:   106  Falha esperada foi recuperada. 
+  108  == Costurar Folhas Árvore 1
+  111  == Imprimir Costura Árvore 1 -> f l a v i o 
+  114  == Destroi Árvore 1
+  118  == Criar árvore 2 (Árvore só com raiz)
+  122  == Inserir à direita
+  125  == Obter o valor inserido
+  128  == Verificar controle de obter o valor inserido errado
+>>>    1  Linha:   129  Conteúdo do nó está errado. Deveria ser: 'x'  É: 'a'
+<<<    0  Linha:   130  Falha esperada foi recuperada. 
+  132  == Ir para no pai, nao tem
+  135  == Costurar Folhas Árvore 2
+  138  == Imprimir Costura Árvore 2 -> a 
+  141  == Destroi Árvore 2
+  145  == Criar árvore 3 (Árvore Assimétrica)
+  148  == Inserir à direita
+  151  == Obter o valor inserido
+  154  == Verificar controle de obter o valor inserido errado
+>>>    1  Linha:   155  Conteúdo do nó está errado. Deveria ser: 'x'  É: '1'
+<<<    0  Linha:   156  Falha esperada foi recuperada. 
+  158  == Ir para no pai, nao tem
+  161  == Inserir à direita
+  164  == Inserir à direita
+  167  == Inserir à direita
+  170  == Ir para no pai, tem
+  173  == Inserir à esquerda
+  176  == Ir para no pai, tem
+  179  == Ir para no pai, tem
+  182  == Ir para no pai, tem
+  185  == Inserir à esquerda
+  188  == Inserir à esquerda
+  191  == Inserir à esquerda
+  194  == Inserir à esquerda
+  197  == Ir para no pai, tem
+  200  == Inserir à direita
+  203  == Costurar Folhas
+  206  == Imprimir Costura Árvore 3 -> 5 6 9 3 
+  209  == Destroi Árvore 3
+  213  == Criar árvore 4 (Árvore com só uma folha)
+  216  == Inserir à direita
+  219  == Inserir à direita
+  222  == Obter o valor inserido
+  225  == Verificar controle de obter o valor inserido errado
+>>>    1  Linha:   226  Conteúdo do nó está errado. Deveria ser: 'x'  É: 'd'
+<<<    0  Linha:   227  Falha esperada foi recuperada. 
+  229  == Costurar Folhas Árvore 4
+  232  == Imprimir Costura Árvore 4 -> d 
+  235  == Destroi Árvore 4
+  239  == Criar árvore 5 (Árvore com 2 folhas)
+  243  == Inserir à direita
+  246  == Inserir à direita
+  249  == Obter o valor inserido
+  252  == Ir para no pai, tem
+  255  == Inserir à esquerda
+  258  == Costurar Folhas Árvore 5
+  261  == Imprimir Costura Árvore 5 -> c b 
+  264  == Destroi Árvore 5
+
+!!! Número de linhas lidas:         266
+!!! Número de casos de teste:        81
+!!! Número comandos corretos:        78
+!!! Número de falhas encontradas:     0
+
+!!! Não foram encontrados problemas
+
+
+!!! Numero de espacos ainda alocados: 0

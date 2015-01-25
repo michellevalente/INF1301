@@ -1,0 +1,22 @@
+//////////////////////////////////////////////////////////////////////
+// Contadores acumulados, gerado: 2014/06/11-20:32:58
+//////////////////////////////////////////////////////////////////////
+
+DES_Ant_ComErro\=1
+DES_Ant_OK\=98
+DES_CelulaNull_ComErro\=3
+DES_CelulaNull_OK\=96
+DES_DuplamenteEncadeada_ComErro\=9
+DES_DuplamenteEncadeada_OK\=90
+DES_ListaPreenchida_ComErro\=3
+DES_ListaPreenchida_OK\=96
+DES_Prox_ComErro\=3
+DES_Prox_OK\=96
+DES_TamanhoLista_ComErro\=2
+DES_TamanhoLista_OK\=97
+DES_TipoCelula_ComErro\=1
+DES_TipoCelula_OK\=98
+
+//////////////////////////////////////////////////////////////////////
+// Fim arquivo de contadores acumulados
+//////////////////////////////////////////////////////////////////////

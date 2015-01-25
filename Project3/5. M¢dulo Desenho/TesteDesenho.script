@@ -1,0 +1,72 @@
+// Script:    TesteDesenho.script
+// Autores:   Gustavo Bach, João Lucas Gardenberg e Michelle Valente
+// Data:      13/mai/2014
+// Propósito: Testar todas as funções do módulo Desenho.
+
+== Gerar Matriz
+=gerarmatriz 3 4 0
+
+== Alterar estados corretos
+=altestadocorreto 1 2 0
+=altestadocorreto 2 1 0
+=altestadocorreto 2 3 0
+=altestadocorreto 3 1 0
+=altestadocorreto 3 3 0
+=altestadocorreto 3 4 0
+
+== Alterar estados atuais
+=altestadoatual 1 1 0
+=altestadoatual 2 1 0
+=altestadoatual 2 2 0
+=altestadoatual 2 3 0
+=altestadoatual 2 4 0
+
+== Testar alterar estados corretos não pertencentes à matriz
+=altestadocorreto 3 5 8
+=altestadocorreto 4 4 9
+
+== Testar alterar estados atuais não pertencentes à matriz
+=altestadoatual 3 5 8
+=altestadoatual 4 4 9
+
+== Obter estados corretos
+=obterestadocorreto 0 1 1 0
+=obterestadocorreto 1 1 2 0
+=obterestadocorreto 0 1 3 0
+=obterestadocorreto 0 1 4 0
+=obterestadocorreto 1 2 1 0
+=obterestadocorreto 0 2 2 0
+=obterestadocorreto 1 2 3 0
+=obterestadocorreto 0 2 4 0
+=obterestadocorreto 1 3 1 0
+=obterestadocorreto 0 3 2 0
+=obterestadocorreto 1 3 3 0
+=obterestadocorreto 1 3 4 0
+
+== Obter estados atuais
+=obterestadoatual 1 1 1 0
+=obterestadoatual 0 1 2 0
+=obterestadoatual 0 1 3 0
+=obterestadoatual 0 1 4 0
+=obterestadoatual 1 2 1 0
+=obterestadoatual 1 2 2 0
+=obterestadoatual 1 2 3 0
+=obterestadoatual 1 2 4 0
+=obterestadoatual 0 3 1 0
+=obterestadoatual 0 3 2 0
+=obterestadoatual 0 3 3 0
+=obterestadoatual 0 3 4 0
+
+== Testar obter estado correto não pertencente à matriz
+=obterestadocorreto 1 3 5 8
+=obterestadocorreto 0 4 4 9
+
+== Testar obter estado atual não pertencente à matriz
+=obterestadoatual 1 3 5 8
+=obterestadoatual 0 4 4 9
+
+== Desenhar Atual
+=desenharatual 0
+
+== Desenhar Correto
+=desenharcorreto 0
